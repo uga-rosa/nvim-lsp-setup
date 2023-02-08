@@ -28,7 +28,7 @@ require("nvim_lsp_setup").setup({
     },
   },
   signature_help = {
-    border = "single"
+    border = "single",
   },
 })
 
