@@ -18,7 +18,6 @@ require("nvim_lsp_setup").setup({
       title = "Diagnostics",
       header = {},
       format = function(diag)
-        vim.pretty_print(diag)
         if diag.code then
           return ("[%s](%s): %s"):format(diag.source, diag.code, diag.message)
         else
