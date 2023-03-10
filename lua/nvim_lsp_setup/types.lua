@@ -2,6 +2,7 @@
 ---@field hover? hoverConfig
 ---@field diagnostic? diagnosticConfig
 ---@field signature_help? signatureHelpConfig
+---@field callback { hover: function, signature_help: function }
 
 --- 'width' and 'height' are always required.
 --- 'relative' or 'external' is required.
